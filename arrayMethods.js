@@ -1,5 +1,6 @@
 // DO NOT MODIFY
 var genericNumberArray = [1, 2, 3, 4, 5];
+
 var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
 var scrambledWords = ['win', 'the', 'for', 'burritos'];
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
@@ -15,4 +16,56 @@ var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
-// do your work below!
+var nameArray =[];
+nameArray.push('josh','vallejo');
+
+genericNumberArray.push(6,7,8,9,10);
+
+
+var popResult=colors.pop();
+
+
+scrambledWords.reverse();
+
+phoneNumber.reverse();
+
+var nextOrder= orderQueue.shift()
+
+var orderedValuesNewLength=orderedValues.unshift(1,2,3)
+
+mixedNums.sort();
+
+mixedWords.sort();
+
+var notFruit=fruitCollection.splice(1,3);
+gemBox.splice(5,9,'Sapphire');
+
+upToTen.splice(2,0,3,4,5,6,7,8);
+
+brownOnly.splice(1,5,'brown','brown','brown');
+
+var randomThingsArray= genericNumberArray.concat(colors);
+
+var myOrder=[{takeOut: 'Ice Cream'}];
+
+var myOrd=[{takeOut: 'Ice Cream'}];
+
+var updatedOrders= orderQueue.concat(myOrder,myOrd);
+
+var sentence= scrambledWords.join(" ");
+
+var myFruits= fruitCollection.join(" + ");
+
+var favoriteFriends= friends.slice(1,3);
+
+var owesMoney= friends.slice (3,6);
+
+var monthNameString=monthNames.toString();
+
+var favoriteColor= colors.indexOf('Red');
+
+var favoriteEvenNumber= mixedNums.indexOf(76);
+
+var lastNine=bulkNumbers.lastIndexOf(9);
+
+var lastFive=bulkNumbers.lastIndexOf(5);
